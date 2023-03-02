@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AA1_GenerateRandomEnemies", "AA1_GenerateRandomEnemies\AA1_GenerateRandomEnemies.vcxproj", "{B664EB05-A192-4809-964F-38ED015DF53A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AA2_CardsGame", "AA2_CardsGame\AA2_CardsGame.vcxproj", "{2786919E-A9ED-4A50-8703-49D35C5364CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{B664EB05-A192-4809-964F-38ED015DF53A}.Release|x64.Build.0 = Release|x64
 		{B664EB05-A192-4809-964F-38ED015DF53A}.Release|x86.ActiveCfg = Release|Win32
 		{B664EB05-A192-4809-964F-38ED015DF53A}.Release|x86.Build.0 = Release|Win32
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Debug|x64.ActiveCfg = Debug|x64
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Debug|x64.Build.0 = Debug|x64
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Debug|x86.Build.0 = Debug|Win32
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Release|x64.ActiveCfg = Release|x64
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Release|x64.Build.0 = Release|x64
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Release|x86.ActiveCfg = Release|Win32
+		{2786919E-A9ED-4A50-8703-49D35C5364CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
