@@ -12,6 +12,6 @@ int main()
     Enemy enemy1(123);
     std::cout << enemy1.GetName() << " - " << enemy1.GetType() << " - " << enemy1.GetHealth() << std::endl;
 
-    Enemy enemy2(RICHARD, "richard", 321);
+    Enemy enemy2(RICHARD, "richard");
     std::cout << enemy2.GetName() << " - " << enemy2.GetType() << " - " << enemy2.GetHealth() << std::endl;
 }

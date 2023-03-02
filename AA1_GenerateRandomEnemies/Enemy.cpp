@@ -13,7 +13,7 @@ Enemy::Enemy(int health) {
 	this->health = health;
 }
 //Constructor amb tots els parametres
-Enemy::Enemy(EnemyType type, std::string name, int health) 
+Enemy::Enemy(EnemyType type, std::string name, int health)
 	:type(type), name(name), health(health)
 {
 

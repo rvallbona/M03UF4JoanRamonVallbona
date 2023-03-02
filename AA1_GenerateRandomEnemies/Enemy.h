@@ -15,7 +15,7 @@ public:
 	//constructor
 	Enemy();
 	Enemy(int health);
-	Enemy(EnemyType type, std::string name, int healt);
+	Enemy(EnemyType type, std::string name, int healt = 100);
 
 	//get()
 	int GetHealth() { return health; }
