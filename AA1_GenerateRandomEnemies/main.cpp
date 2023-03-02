@@ -14,4 +14,7 @@ int main()
 
     Enemy enemy2(RICHARD, "richard");
     std::cout << enemy2.GetName() << " - " << enemy2.GetType() << " - " << enemy2.GetHealth() << std::endl;
+
+    bool result = enemy == enemy1;
+    std::cout << result << std::endl;
 }

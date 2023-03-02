@@ -24,4 +24,6 @@ public:
 
 	//func()
 	bool ReciveDamage(int amount);
+
+	bool operator == (const Enemy& other);
 };

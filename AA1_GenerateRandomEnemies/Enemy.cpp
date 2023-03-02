@@ -22,3 +22,12 @@ bool Enemy::ReciveDamage(int amount) {
 	health -= amount;
 	return health <= 0;
 }
+bool Enemy::operator == (const Enemy& other) {
+	bool result = true;
+
+	result &= type == other.type;
+	result &= name == other.name;
+	result &= health == other.health;
+
+	return result;
+}
