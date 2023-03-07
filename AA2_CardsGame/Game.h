@@ -14,7 +14,7 @@ public:
 	Game(
 	/*inicializa a los players con nombres aleatorios
 	o inicializa al mazo con todas las cartas de la baraja de manera aleatoria
-	o reparte 7 cartas (cogidas del mazo) a cada uno de los jugadores. El
+	o reparte 7 cartas (cogidas del mazo)  a cada uno de los jugadores. El
 	reparto debe hacerse de una en una*/
 	);
 	//get()
