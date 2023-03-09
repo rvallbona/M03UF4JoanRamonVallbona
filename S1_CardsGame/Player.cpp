@@ -1,4 +1,5 @@
 #include "Player.h"
+#include <iostream>
 
 Player::Player(std::string name)
 {
@@ -17,7 +18,7 @@ void Player::InsertCard(Card c)
 		if ((*it) > c)
 		{
 			hand.emplace(it, c);
-			break;
+			return;
 		}
 	}
 	if (it == hand.end())
@@ -41,10 +42,26 @@ Card Player::GetCard()
 
 Card Player::GetCard(Suit t)
 {
-	// 
+	for (int i = hand.size() - 1; i >= 0; i--)
+	{
+		if (t == hand[i].GetType())
+		{
+			Card tempCard = hand[i];
+			hand.erase(hand.begin() + i);
+			return tempCard;
+		}
+	}
 	return Card();
 }
 
 void Player::PrintHand()
 {
+	std::string suitNames[] = { "SPADES", "COINS", "CUPS", "CLUBS" };
+	
+	//PRINTAR UNA CARTA:
+	std::cout << " ------ PLAYER HAND ------ " << std::endl;
+	for (int i = 0; i < hand.size(); i++)
+	{
+		std::cout << hand[i].GetValue() << " de " << suitNames[(int)hand[i].GetType()] << std::endl;
+	}
 }

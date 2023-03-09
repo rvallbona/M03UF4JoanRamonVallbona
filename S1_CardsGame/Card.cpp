@@ -7,14 +7,11 @@ Card::Card()
 }
 
 Card::Card(int v, Suit t)
-{
-	value = v;
-	type = t;
-}
+	:value(v), type(t) { }
 
 int Card::GetValue()
 {
-	return type;
+	return value;
 }
 
 void Card::SetValue(int v)
@@ -24,7 +21,7 @@ void Card::SetValue(int v)
 
 Suit Card::GetType()
 {
-	return Suit();
+	return type;
 }
 void Card::SetType(Suit t) {
 	type = t;
