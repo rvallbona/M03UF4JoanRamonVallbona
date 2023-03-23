@@ -14,7 +14,7 @@ public:
 
 	Vector2 GetPosition() { return position; }
 	
-	void ReceiveDamage(int amount);
+	void virtual ReceiveDamage(int amount);
 	
 	void Update();
 };
