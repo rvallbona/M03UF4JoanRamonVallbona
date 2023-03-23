@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teoria_HerenciaPolimorfisme
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teoria_HerenciaPolimorfosis2", "Teoria_HerenciaPolimorfosis2\Teoria_HerenciaPolimorfosis2.vcxproj", "{C77F2F57-2BA4-426A-A241-9F6D1E5B3A22}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowerDefense", "TowerDefense\TowerDefense.vcxproj", "{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{C77F2F57-2BA4-426A-A241-9F6D1E5B3A22}.Release|x64.Build.0 = Release|x64
 		{C77F2F57-2BA4-426A-A241-9F6D1E5B3A22}.Release|x86.ActiveCfg = Release|Win32
 		{C77F2F57-2BA4-426A-A241-9F6D1E5B3A22}.Release|x86.Build.0 = Release|Win32
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Debug|Any CPU.Build.0 = Debug|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Debug|x64.ActiveCfg = Debug|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Debug|x64.Build.0 = Debug|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Debug|x86.ActiveCfg = Debug|Win32
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Debug|x86.Build.0 = Debug|Win32
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Release|Any CPU.ActiveCfg = Release|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Release|Any CPU.Build.0 = Release|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Release|x64.ActiveCfg = Release|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Release|x64.Build.0 = Release|x64
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Release|x86.ActiveCfg = Release|Win32
+		{83054B06-CCFE-40FD-A9C8-D4AFC9EFEC29}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
